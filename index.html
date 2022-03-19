@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Freshest Produce in Singapore - Freshmart Online</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+
+  <body>
+    <!--NAV BAR space-->
+    <section class="bg-light" style="height: 5.8em"></section>
+    <section class="fixed-top">
+      
+      <!--START announcement-->
+      <nav class="announcement ft-6 notice-color">
+        Spend above $30 for free delivery
+      </nav>
+      <!--END announcement-->
+
+      <!--START NAV BAR-->
+      <nav class="navbar navbar-expand-sm navbar-dark main-color">
+        <div class="container-fluid ">
+          <a href="index.html">
+            <img src="images/logo.png" style="width: 200px"/>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon" ></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Our Story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--END NAV BAR-->
+    </section>
+
+    <div class="top position-relative">
+    <!-- START Carousel -->
+    <div id="carousel-main" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="images/veg.jpeg"
+            class="d-block w-100"
+            alt="Vegetables in supermarket"
+          />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="images/Strawberries.jpeg"
+            class="d-block w-100"
+            alt="Strawberries"
+          />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="images/greenveg.jpeg"
+            class="d-block w-100"
+            alt="Making Curry puffs"
+          />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="images/peaches.jpeg"
+            class="d-block w-100"
+            alt="Peaches"
+          />
+          <div class="carousel-caption d-none d-md-block"></div>
+        </div>
+      </div>
+    </div>
+    <!--END Carousel-->
+
+    <!--START call to acion-->
+    <section class="p-3 cta mx-auto position-absolute top-50 start-50 translate-middle" style="width: 70vw; background-color: rgba(51, 51, 51, 0.6)">
+      <div class="p-4 text-white">
+        <h1>Be Our Member Today!</h1>
+        <p class="pt-2 ft-5 lead"><strong>Sign up and recieve free seasonal produce today</strong></p>
+
+          <div class="row">
+            <div class="mt-3">
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Your email here"
+              />
+            </div>
+          </div> <!-- End row -->
+
+          <button type="button" class="p-2 btn btn-dark btn-lg mt-3 ps-3 pe-3 fs-6">Sign Up</button>
+
+      </div> <!-- End card body -->
+    </section> <!-- end section -->
+    <!--END call to action-->
+    </div>
+
+    <!--START Highlights-->
+    <section class="mt-5 mb-2 text-dark" >
+      <div class="display-4 p-3 mx-3">Featured Products</div>
+      <!--START Card rotation-->
+      <div class="scrolling-wrapper row flex-row flex-nowrap flex-lg-wrap col-lg-12 m-4 pb-2 pt-2 gap-3 gap-lg-4">
+        <!--CARD ITEM 1-->
+        <div class="col-7 col-md-3 col-lg-2 shadow-sm p-3 mb-4 bg-body rounded">
+          <div class="card-block">
+            <div
+              class="image"
+              style="
+                background-image: url(images/pepper.jpeg);
+              "
+            ></div>
+            <p class="fs-6 fw-bold mt-2" style="line-height: 1.2;">Fresh<br>Produce</p>
+            <p class="fs-7 lh-sm">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <!--CARD ITEM 2-->
+        <div class="col-7 col-md-3 col-lg-2 shadow-sm p-3 mb-4 bg-body rounded">
+          <div class="card-block">
+            <div
+              class="image"
+              style="background-image: url(images/raspberry.jpeg)"
+            ></div>
+            <p class="fs-6 fw-bold mt-2" style="line-height: 1.2";>Seasonal<br>Fruits</p>
+            <p class="fs-7 lh-sm">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <!--CARD ITEM 3-->
+        <div class="col-7 col-md-3 col-lg-2 shadow-sm p-3 mb-4 bg-body rounded">
+          <div class="card-block">
+            <div
+              class="image"
+              style="background-image: url(images/veg2.jpeg)"
+            ></div>
+            <p class="fs-6 fw-bold mt-2" style="line-height: 1.2">Organic<br>Vegetables</p>
+            <p class="fs-7 lh-sm">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <!--CARD ITEM 4-->
+        <div class="col-7 col-md-3 col-lg-2 shadow-sm p-3 mb-4 bg-body rounded">
+          <div class="card-block">
+            <div
+              class="image"
+              style="background-image: url(images/potato.jpeg)"
+            ></div>
+            <p class="fs-6 fw-bold mt-2" style="line-height: 1.2">Lorem<br>Ipsum</p>
+            <p class="fs-7 lh-sm">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+
+        <!--CARD ITEM 5-->
+        <div class="col-7 col-md-3 col-lg-2 shadow-sm p-3 mb-4 bg-body rounded">
+          <div class="card-block">
+            <div
+              class="image"
+              style="background-image: url(images/cherrytomato.jpeg)"
+            ></div>
+            <p class="fs-6 fw-bold mt-2" style="line-height: 1.2">Lorem<br>Ipsum</p>
+            <p class="fs-7 lh-sm">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <!--END Highlights-->
+
+  <!--START Fresh Products-->
+    <div class="px-5 pb-5 main-color">
+      <div class="display-4 py-5">Fresh Products</div>
+
+      <div class="row">
+
+        <!--option 1-->
+        <div class="mb-5 col-md-6">
+          <a href="fresh-fruits.html" style="text-decoration:none;" class=" text-white">
+            <div class="container">
+            <div class="image" style="background-image: url(images/apple.jpeg)"></div>
+            <p class="h4 mt-2">Fresh Fruits</p>
+            <button type="button" class="btn btn-outline-light">View Catalog</button>
+            </div>
+          </a>
+        </div>
+        
+        <!--option 2-->
+        <div class="mb-5 col-md-6">
+          <a href="fresh-vegs.html" style="text-decoration:none;" class=" text-white">
+          <div class="container">
+            <div class="image container" style="background-image: url(images/greenveg.jpeg)"></div>
+              <p class="h4 mt-2">Fresh Vegetables</p>
+              <button type="button" class="btn btn-outline-light">View Catalog</button>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  <!--END Fresh Products-->
+
+  <!--START Our Location-->
+  <section class="col-12 col-lg-6">
+    <div class="p-3 engage bg-white" >
+      <h1 class="text-dark display-4">Our Location</h1>
+      <p class="text-dark">Orchard Plaza, #01-74, Singapore 40897</p>
+      <div class="mapouter d-md-block rounded-2 d-flex justify-content-center">
+          <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7837485542004!2d103.83000971470125!3d1.3048204990483376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da199148e6febb%3A0x8e99f73f37fef4fa!2sOrchard%20Rd!5e0!3m2!1sen!2ssg!4v1642912114156!5m2!1sen!2ssg"
+          width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+  <!--END Our Location-->
+    
+    <!--START Contact Us-->
+      <div>
+        <section class="bg-light p-5">
+          <h1 class="display-5">Question? Contact Us. We would like to help</h1>
+          <div class="mb-3 mt-3">
+            <input
+              class="form-control"
+              type="email"
+              placeholder="Your email here"/>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              placeholder="Your message here"
+              id="exampleFormControlTextarea1"
+              rows="3"></textarea>
+          </div>
+          <button type="button" class="p-2 main-color btn btn-dark btn-lg mt-3 ps-3 pe-3 fs-6">Send</button>
+        </section>
+      </div>
+  
+    <!--END Contact Us-->
+    
+
+    <!--START Footer-->     
+    <div class="display-6 fs-6 main-color p-2">
+      <p class=" d-flex justify-content-right">
+        <img src="images/twitter-icon.png" style="width: 40px" />
+        <img src="images/facebook-icon.png" style="width: 40px" />
+        <img src="images/instagram-icon.png" style="width: 40px" />
+     </p>
+
+      <p class="col">
+        <div>&copy FreshMart 2022</div>
+      </p>   
+    </div>
+    <!--END Footer-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

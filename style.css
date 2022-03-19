@@ -1,0 +1,71 @@
+.announcement {
+    height: 28px;
+    text-align: center;
+    background-color: rgb(255, 200, 80);
+  }
+  .carousel-inner .carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+  }
+  
+  /* CTA */
+  .cta h1 {
+    font-size: 2.2em;
+    letter-spacing: 1px;
+    line-height: 1;
+  }
+  
+  .cta p {
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+  }
+  
+  .cta .btn {
+    background-color: #1f7a59;
+    border: none;
+  }
+  
+  /* For Fresh Products images */
+  .container {
+    width: 500vh;
+    /* height: 500vh; */
+  }
+  /* For Fresh Products images */
+  
+  .detail-text {
+    width: 200px;
+    height: 200px;
+  }
+  .image {
+    /* width: 200px; */
+    height: 155px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.3em;
+    border-radius: 0.2em;
+  }
+  
+  .scrolling-wrapper {
+    overflow-x: auto;
+  }
+  
+  .card-block {
+    height: 300px;
+    width: auto;
+    background-color: #fff;
+    border: none;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.5s ease-in-out !important;
+  }
+  
+  .main-color {
+    background-color: #1f7859;
+    color: #fff;
+  }
+  
+  .notice-color {
+    background-color: #3c3c3c;
+    color: #fff;
+  }
+  
