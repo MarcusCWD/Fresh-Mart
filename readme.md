@@ -8,6 +8,7 @@ Access the live demo of the website [here](https://amazing-hamilton-02646f.netli
 **Project Context**
 
  _Fresh Mart_ is a mobile-responsive front-end page that markets wholesale fresh produce within Singapore
+ 
 **User Goals**
 
 The aim of users is to be able to purchase products from the website from both mobile and/or from desktop with ease.
